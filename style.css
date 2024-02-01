@@ -1,0 +1,13 @@
+.accordion-widget{width:100%;float:left;margin-top:35px}
+.accordion{width:100%;float:left;border:1px solid #707070;border-radius:20px}
+.accordion-title{width:100%;height:70px;display:flex;align-items:center;justify-content:space-between;box-sizing:border-box;padding:0 35px;cursor:pointer}
+.accordion-content{width:100%;float:left;box-sizing:border-box;padding:15px 35px 25px;color:var(--dark-gray);display:none}
+.accordion-content p{font-size:18px;line-height:28px;margin-bottom:15px}
+.accordion-title h3{font-size:26px;letter-spacing:2px;color:var(--dark-gray)}
+.accordion-content li{font-size:18px;line-height:28px;margin-bottom:2px}
+.accordion-content ol{list-style:decimal;margin-left:15px;margin-bottom:15px}
+.accordion-content ul{list-style:disc;margin-left:20px;margin-bottom:15px}
+.accordion-title svg{width:30px;transition:all ease-in-out .3s}
+.active .accordion-title svg{transform:rotate(45deg)}
+.active .accordion-title svg path{fill:#fff;stroke:var(--red)}
+.active .accordion-title svg path:first-child{stroke:var(--dark-gray)}
